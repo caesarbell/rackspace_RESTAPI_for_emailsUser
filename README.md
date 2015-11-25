@@ -35,4 +35,8 @@ Use the `addPermissionToAllUsers.php` file
 
 Use the `setPermissionOnSingle.php` file
 
+#### Contribute 
+
+Please feel free to add to this code, it can help many sys admins migrate users from Rackspace to Office 365. 
+
 
