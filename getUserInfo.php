@@ -13,7 +13,7 @@ require_once 'ApiClient.php';
 $client = new  ApiClient();
 
 $response = $client->get(
-    '/customers/346345/domains/company_domain.com/ex/mailboxes/username_you_are_targetting/permissions',
+    '/customers/customer_number/domains/company_domain.com/ex/mailboxes/username_you_are_targetting/permissions',
     'text/xml');
 
 echo  $response . "\r\n";
