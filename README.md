@@ -17,22 +17,22 @@ To use the API to access your email users within your domain that is hosted in R
 3. Go to the APIClient.php and enter in the USER_KEY and SECRET_KEY. For more info about this read [Rackspace API Wiki](http://api-wiki.apps.rackspace.com/api-wiki/index.php/Main_Page#URL)
 4. Open your bowser and use a local server, normally ran on port 3000 (i.e localhost:3000) and naviagate to one of the php files below, depending one what task you are trying to accomplish.
 
-### Task you are trying to run
+### Tasks you are trying to run
 
 #### Printing all users within your domain onto the screen 
 
-Use the getUsersInsideDomain.php file
+Use the `getUsersInsideDomain.php` file
 
 #### Print single user within your domain onto the screen 
 
-Use the getUserInfo.php file
+Use the `getUserInfo.php` file
 
 #### Set permissions to all users within your domain hosted on Rackspace 
 
-Use the addPermissionToAllUsers.php file 
+Use the `addPermissionToAllUsers.php` file 
 
 #### Set permission to a single user within your domain hosted on Rackspace 
 
-Use the setPermissionOnSingle.php file
+Use the `setPermissionOnSingle.php` file
 
 
