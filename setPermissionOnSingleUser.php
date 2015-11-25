@@ -15,7 +15,7 @@ $client = new  ApiClient();
 $fields = Array('permission' => 'both'); 
 
 $response = $client->post(
-    '/customers/346345/domains/company_domain.com/ex/mailboxes/username_you_are_targetting/permissions/admin.user',
+    '/customers/customer_number/domains/company_domain.com/ex/mailboxes/username_you_are_targetting/permissions/admin.user',
     $fields,
     'txt/xml');
 
